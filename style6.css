@@ -11,3 +11,60 @@
 img {
 	width: 100%;
 }
+header {
+	max-width: 1400px;
+	margin: auto;
+}
+.header {
+	max-width: 1400px;
+	display: flex;
+	position: relative;
+
+}
+.hdr-navigation {
+	width: 1170px;
+	margin: auto;
+	position: absolute;
+	top: 20px;
+	left: 115px;
+	display: flex;
+	justify-content: space-between;
+		align-items: center;
+		color: #32495E;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	width: 206px;
+}
+.hdr-nav {
+	display: flex;
+	width: 500px;
+	justify-content: space-between;
+	list-style-type: none;
+}
+.hdr-nav li {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+}
+.li-flx {
+	display: flex;
+	align-items: center;
+}
+.strelka {
+	width: 4px;
+	height: 4px;
+	margin-left: 6px;
+}
+.hdr-left {
+	height: 500px;
+	width: 50%;
+	background-color: #E95258;
+}
+.hdr-right {
+	height: 500px;
+	width: 50%;
+	background-color: #F9F9F9;
+}
