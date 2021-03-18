@@ -216,7 +216,7 @@ text-transform: uppercase;
 }
 .tipe-of-services {
 	width: 1400px;
-	height: 716px;
+	height: 650px;
 	margin-right: auto;
 	color: #F9F9F9;
 	text-align: left;
@@ -224,9 +224,10 @@ text-transform: uppercase;
 .tipe-of-services h2 {
 	color: #F9F9F9;
 	margin-top: 70px;
-	margin-bottom: 40px;
 }
 .sct-1-flx {
+	margin-top: 40px;
+	margin-bottom: 40px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -280,7 +281,36 @@ text-transform: uppercase;
  }
  .tipe-of-services .button {
  	margin: auto;
- 	margin-top: 40px;
- 	margin-bottom: 142px;
  	color: #F9F9F9;
+ }
+ .specialists {
+ 	background-color:  #F9F9F9;
+ 	height: 592px;
+ }
+ .sct-2-flx {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .sct-2-cards {
+ 	margin-top: 40px;
+ 	max-width: 241px;
+ }
+ .sct-2-card-img {
+ 	background: #C4C4C4;
+ 	border-radius: 100%;
+ 	width: 98px;
+ 	height: 98px;
+ 	margin-bottom: 41px;
+ }
+ .sct-2-cards h5 {
+ 	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+	color: #32495E;
+	margin-bottom: 10px;
+ }
+ .sct-2-cards p {
+ 	font-size: 14px;
+	line-height: 17px;
+	color: #32495E;
  }
